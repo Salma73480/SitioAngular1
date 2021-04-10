@@ -29,3 +29,5 @@
 <label for="hero-universo">Universo al que Pertenece el Héroe: </label>
 <input id="hero-universo"[(ngModel)]="selectedHero.universo" placeholder="universo">
 </div>
+
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>
