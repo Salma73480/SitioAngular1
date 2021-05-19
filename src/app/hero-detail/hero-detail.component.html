@@ -1,10 +1,32 @@
-
-<div *ngIf = "hero">
-    <h2>{{hero.name | uppercase}} Detalles</h2>
-    <div><span> id: </span>{{hero.id | uppercase}}</div>
+<div *ngIf="hero">
+    <h2>{{hero.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{hero.id}}</div>
     <div>
-    <label for="hero-name">Heroe Nombre: </label>
-    <input id ="hero-name" [(ngModel)]="hero.name" placeholder="name">
+      <label for="hero-name">NOMBRE DEL SÚPER HÉROE: </label>
+      <input id="hero-name" [(ngModel)]="hero.name" placeholder="Hero name"/>
     </div>
+    <div>
+      <label for="hero-name">EDAD DEL SÚPER HÉROE: </label>
+      <input id="hero-edad" [(ngModel)]="hero.edad" placeholder="Hero edad"/>
     </div>
-    
+    <div>
+        <label for="hero-name">SÚPER PODER DEL HÉROE: </label>
+        <input id="hero-tipo" [(ngModel)]="hero.tipo" placeholder="Hero tipo"/>
+      </div>
+      <div>
+        <label for="hero-name">IDENTIDAD DEL HÉROE: </label>
+        <input id="hero-identidad" [(ngModel)]="hero.identidad" placeholder="Hero identidad"/>
+      </div>
+      <div>
+      <label for="hero-name">UNIVERSO AL QUE PERTENECE EL HÉROE: </label>
+        <input id="hero-universo" [(ngModel)]="hero.universo" placeholder="Hero universo"/>
+      </div>
+    <button (click)="goBack()">REGRESA</button>
+  </div>
+  
+  
+  <!-- 
+  Copyright Google LLC. All Rights Reserved.
+  Use of this source code is governed by an MIT-style license that
+  can be found in the LICENSE file at https://angular.io/license
+  -->

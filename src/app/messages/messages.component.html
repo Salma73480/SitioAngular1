@@ -1,8 +1,15 @@
 <div *ngIf="messageService.messages.length">
- 
-    <h2>Mensajes</h2>
-    <button class="clear"
-            (click)="messageService.clear()">Limpiar mensajes</button>
-    <div *ngFor='let message of messageService.messages'> {{message}} </div>
-  
-  </div>
+
+        <h2>MENSAJE</h2>
+        <button class="clear"
+                (click)="messageService.clear()">LIMPIAR MENSAJE</button>
+        <div *ngFor="let message of messageService.messages"> {{message}} </div>
+      
+      </div>
+      
+      
+      <!-- 
+      Copyright Google LLC. All Rights Reserved.
+      Use of this source code is governed by an MIT-style license that
+      can be found in the LICENSE file at https://angular.io/license
+      -->

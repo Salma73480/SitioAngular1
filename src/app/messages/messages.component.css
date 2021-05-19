@@ -1,0 +1,26 @@
+/* MessagesComponent's private CSS styles */
+h2 {
+    color: #337770;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  
+  .clear {
+    color: rgb(71, 178, 185);
+    background-color: rgb(74, 88, 88);
+    margin-bottom: 12px;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  .clear:hover {
+    color: rgb(237, 241, 241);
+    background-color: #020405;
+  }
+  
+  
+  /*
+  Copyright Google LLC. All Rights Reserved.
+  Use of this source code is governed by an MIT-style license that
+  can be found in the LICENSE file at https://angular.io/license
+  */
